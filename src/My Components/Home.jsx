@@ -1,13 +1,9 @@
 import React from "react";
 function Home() {
+  let options = ["Hi-tech", "durable", "Flexible"]; 
   return (
     <>
-    <div style={{textAlign:"center"}}>
-
-      <h1> Hello World</h1>
-      <button> Marr sale koo....</button>
-      <p>ohk samjh gaya </p>
-    </div>
+         <Header title="Laptop" price={100000}   /> 
     </>
   );
 }

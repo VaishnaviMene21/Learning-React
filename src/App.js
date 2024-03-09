@@ -1,18 +1,21 @@
 import React from "react";
-import Footer from "./My Components/Footer";
-import Header from "./My Components/Header";
-import Home from "./My Components/Home";
-import Practice from "./My Components/Practice";
+import Product from "./My Components/Product";
+import ProductTab from "./My Components/ProductTab";
+
+
 
 function App() {
+ 
+
+     
+  
+   
   return (
     <>
-      <Header />
-
-      <Home />
-      <Practice />
+       
+     
+      <ProductTab />
       
-      <Footer />
     </>
   );
 }
